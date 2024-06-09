@@ -249,7 +249,6 @@ const View = () => {
                                     <th scope="col">NAME</th>
                                     <th scope="col">USERNAME</th>
                                     <th scope="col">EMAIL</th>
-                                    <th scope="col">ADDRESS</th>
                                     <th scope="col">PHONE</th>
                                     <th scope="col">WEBSITE</th>
                                     <th scope="col">COMPANY</th>
@@ -262,9 +261,9 @@ const View = () => {
                                             <td>{value.name}</td>
                                             <td>{value.username}</td>
                                             <td>{value.email}</td>
-                                            <td>{value.address}</td>
                                             <td>{value.phone}</td>
                                             <td>{value.website}</td>
+                                            <td>{value.company.name}</td>
                                             
 
                                         </tr>
